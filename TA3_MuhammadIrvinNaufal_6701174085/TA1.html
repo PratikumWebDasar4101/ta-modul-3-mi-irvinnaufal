@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<center>
+		<h1>Form Login</h1>
+     <form method="POST" action="TA.php" enctype="multipart/form-data">
+                    <b>Nama User</b><br><input type="text" name="namauser" required><br><br>
+                    <b>NIM</b><br><input type="number" name="nim" required><br><br>
+                    <b>Fakultas</b><br>
+                    <select name="fakultas" id="dropdown">
+                        <option value="FIT">FIT</option>
+                        <option value="FEB">FEB</option>
+                        <option value="FIK">FIK</option>
+                    </select>
+                    <br><br>
+                    <b>Jenis Kelamin : </b>
+                    <input type="radio" name="jeniskelamin" value="Laki-laki"> Laki-Laki
+                    <input type="radio" name="jeniskelamin" value="Perempuan"> Perempuan 
+                    <br><br>
+                    <b>Foto : </b><input type="file" name="foto" required><br><br>
+                    <input type="submit" value="Kirim"> 
+                </form>
+        </center>
+    </body>
+</body>
+</html>
+ 
+ 
